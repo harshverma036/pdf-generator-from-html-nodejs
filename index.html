@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Blue Dart Pdf</title>
+    <style>
+      .details-card {
+        border: 1px solid #121212;
+        padding: 10px;
+        width: 500px;
+        height: auto;
+      }
+      .font-size-custom {
+        font-size: 30px;
+      }
+      .font-size-content {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="details-card">
+      <div class="row text-center justify-content-center">
+        <div class="col-4">
+          <p class="font-size-content">11/03/2021</p>
+        </div>
+        <div
+          class="col-4 font-weight-bold font-size-custom flex-column flex-column"
+        >
+          <p class="font-size-custom mb-0">{{user.name}}</p>
+          <!-- <p class="font-size-custom">BLUE DART</p> -->
+          <!-- <p class="font-size-custom">{{this.name}}</p> -->
+        </div>
+        <div class="col-4">
+          <p class="font-size-content">{{user.type}}</p>
+        </div>
+      </div>
+    </div>
+    <div>New div</div>
+    <!-- for barcode -->
+  </body>
+</html>
